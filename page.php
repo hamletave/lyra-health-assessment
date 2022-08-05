@@ -11,7 +11,7 @@ the_post();
 ?>
 <div id="post-<?php the_ID(); ?>" <?php post_class('content'); ?>>
 	<h1 class="entry-title"><?php the_title(); ?></h1>
-	<p>This is some test text some more and more lorem ipsum</p>
+	<p>This is some test text lorem ipsum</p>
 	<?php
 	the_content();
 
